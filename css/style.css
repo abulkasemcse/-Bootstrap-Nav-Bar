@@ -1,0 +1,45 @@
+.navbar-default {
+    background: #221c1c;
+    border-color: #e4dcdc;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: rgb(238, 229, 235);
+    background: #0a0a0a;
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgb(66, 155, 128);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: rgb(218, 193, 55);
+    background-color: transparent;
+}
+navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: rgba(144, 5, 75, 0.774);
+    background: #067eb6;
+    background-color: rgb(211, 197, 224);
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    background: #067eb6;
+}
+.dropdown-menu {
+    padding: 0px;
+}
+.navbar-default {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.dropdown-menu>li>a {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+.dropdown-menu>li:last-child a {
+border-bottom: 0px;
+}
